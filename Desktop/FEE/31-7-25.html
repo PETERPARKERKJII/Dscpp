@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Travel Blog</title>
+  <link rel="icon" href="icons8-favorite-30.png" type="image/png">
+  <style>
+    /* Flexbox to center everything */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 700px;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    video, img {
+      max-width: 100%;
+    }
+
+    a {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>My Travel Blog</h1>
+    <p>
+      <a href="#">Home</a> |
+      <a href="#">Destinations</a> |
+      <a href="#">Contact</a>
+    </p>
+
+    <h2>Welcome!</h2>
+    <p>Hello traveler! I'm here to share my favorite travel experiences and tips from around the world.</p>
+    <img src="Dubai.jpg" alt="Travel Photo" height="300">
+
+    <h2>Top 3 Travel Destinations</h2>
+    <table>
+      <tr>
+        <th>Country</th>
+        <th>Best Time to Visit</th>
+        <th>Language</th>
+      </tr>
+      <tr>
+        <td>Dubai</td>
+        <td>March - May</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>Italy</td>
+        <td>April - June</td>
+        <td>Italian</td>
+      </tr>
+      <tr>
+        <td>New Zealand</td>
+        <td>December - February</td>
+        <td>English, Māori</td>
+      </tr>
+    </table>
+
+    <h2>Travel Quote</h2>
+    <blockquote>
+      "The world is a book, and those who do not travel read only one page." – Saint Augustine
+    </blockquote>
+
+    <h2>My Trip Video</h2>
+    <video controls>
+      <source src="dubai.MP4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Background music -->
+    <audio autoplay loop muted>
+      <source src="background.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>Plan Your Next Adventure</h2>
+    <form>
+      Full Name:<br>
+      <input type="text" name="fullname"><br><br>
+
+      Destination Interest:<br>
+      <select name="destination">
+        <option value="dubai">Dubai</option>
+        <option value="italy">Italy</option>
+        <option value="nz">New Zealand</option>
+      </select><br><br>
+
+      Type of Traveler:<br>
+      <input type="radio" name="type" value="solo"> Solo<br>
+      <input type="radio" name="type" value="family"> Family<br>
+      <input type="radio" name="type" value="group"> Group<br><br>
+
+      Email ID:<br>
+      <input type="email" name="email"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>&copy; 2025 My Travel Blog</p>
+
+  </div>
+
+</body>
+</html>
+
+
