@@ -9,7 +9,7 @@
 //         x = a;
 //     }
 
-//     void show() {
+//     void show() {c
 //         cout << "Value of x: " << x << endl;
 //     }
 // };
@@ -21,20 +21,35 @@
 // }
 
 
+// #include<iostream>
+// using namespace std;
+
+// class Point{
+//     private:
+//      int x;
+//      int y;
+
+//     public:
+//      Point(int a, int b):x(a),y(b){
+//         cout<<"Point initialized with x = " << x<<" and y = "<<y<<endl;
+//      }
+// };
+// int main(){
+//     Point p1(3,4);
+//     return 0;
+// }
 #include<iostream>
-using namespace std;
+class Example {
+private:
+    const int value;
+    int& ref:
+public:
+    Example(int v,int& r) : value(v) , ref(r) {
+        
+    }    
 
-class Point{
-    private:
-     int x;
-     int y;
 
-    public:
-     Point(int a, int b):x(a),y(b){
-        cout<<"Point initialized with x = " << x<<" and y = "<<y<<endl;
-     }
-};
-int main(){
-    Point p1(3,4);
-    return 0;
+
+
+
 }
